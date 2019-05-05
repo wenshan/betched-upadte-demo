@@ -40,17 +40,7 @@ export default class BatchedDemo extends React.Component {
   }
 
   componentDidMount(){
-    this.setState({
-      number: 1000,
-    });
-    console.log(this.state.number);
-    this.setState({
-      number: 100012,
-    });
-    setTimeout(() => {
-      console.log(this.state.number);
-    },0);
-    
+
   }
 
   render() {
